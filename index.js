@@ -49,7 +49,7 @@ function gameOver(){
         $("body").removeClass("game-over");
     }, 200)
 
-    $("#level-title").text("Game Over~");
+    $("#level-title").html("Game Over~ <br>You made it to level " + (level-1) + "!!!");
 
     gamePattern = [];
     userClickedPattern = [];
